@@ -96,7 +96,7 @@ While the basic usage is explained in the Erlang/OTP reference manual\footnote{\
  {4,1.2087551402238991e-5}]
 \end{VerbatimEshell}
 
-The function \function{recon:scheduler\_usage(N)} will poll for \var{N} milliseconds (here, 1 second) and output the value of each scheduler. In this case, the VM has two very loaded schedulers (at 99.2\% and 93.7\% repectively), and two mostly unused ones at far below 1\%. Yet, a tool like \app{htop} would report something closer to this for each core:
+The function \function{recon:scheduler\_usage(N)} will poll for \var{N} milliseconds (here, 1 second) and output the value of each scheduler. In this case, the VM has two very loaded schedulers (at 99.2\% and 93.7\% respectively), and two mostly unused ones at far below 1\%. Yet, a tool like \app{htop} would report something closer to this for each core:
 
 \begin{VerbatimText}
 [|||||||||||||||||||||||||     70.4%]

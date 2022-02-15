@@ -30,7 +30,7 @@ rebar.config
 rebar.lock
 \end{VerbatimText}
 
-What's new in this one is the \filename{\_build/} directory and the \filename{rebar.lock} file, which will be generated automatically by \app{rebar3}\footnote{Some people package \app{rebar3} directly in their application. This was initially done to help people who had never used rebar3 or its predecessors use libraries and projects in a boostrapped manner. Feel free to install rebar3 globally on your system, or keep a local copy if you require a specific version to build your system.}. 
+What's new in this one is the \filename{\_build/} directory and the \filename{rebar.lock} file, which will be generated automatically by \app{rebar3}\footnote{Some people package \app{rebar3} directly in their application. This was initially done to help people who had never used rebar3 or its predecessors use libraries and projects in a bootstrapped manner. Feel free to install rebar3 globally on your system, or keep a local copy if you require a specific version to build your system.}. 
 
 This is the directory where \app{rebar3} places all build artifacts for a project, including local copies of libraries and packages required for it to work. No mainstream Erlang tool installs packages globally\footnote{Except as a local cache of unbuilt packages.}, preferring to instead keep everything project-local to avoid inter-project conflicts.
 
